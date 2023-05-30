@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Auditorías a las estrategias de ciberseguridad',
+    descripcionCurso:
+      'Este componente formativo aborda aspectos clave de las estrategias de seguridad de los activos más importantes para las organizaciones. Con su estudio responsable, el aprendiz se afianzará en lo relacionado con enfoques y cambios para seguridad, prevención de incidentes de ciberseguridad, atención, programas de auditoría y monitoreo efectivo.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -24,35 +33,94 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info-circle',
+        icono: 'fas fa-info',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
+        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'La auditoría cibernética',
         desarrolloContenidos: true,
         subMenu: [
           {
+            icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Técnicas de auditoría',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Tipos de auditoría',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Definiciones y elementos fundamentales de la auditoría',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Consideraciones importantes para una auditoría',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Principios de la auditoría',
+            hash: 't_1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Fases de la auditoría',
+            hash: 't_1_6',
           },
         ],
       },
 
       {
         nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Pruebas de vulnerabilidad cibernética',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Finalidad de las pruebas',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Pruebas y análisis',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Tipos de pruebas de efectividad',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Procedimiento de ejecución de pruebas de efectividad',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Alcance de las pruebas',
+            hash: 't_2_5',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -84,11 +152,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -102,32 +165,121 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Procedimiento de ejecución de pruebas de efectividad.',
+      referencia:
+        'Ministerio de Tecnologías de la Información y Comunicaciones. (2016). Guía metodológica de pruebas de efectividad. ',
+      tipo: 'Otro: Guía técnica ',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G1_Metodologia_pruebas_efectividad.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Principios de la auditoría',
+      referencia:
+        'Organización Internacional de Normalización (2013). Seguridad de la información, ciberseguridad y protección de la privacidad. (ISO 27001). ISO. ',
+      tipo: 'Norma técnica',
+      link: 'https://www.iso.org/standard/54534.html',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Atributo',
+      significado:
+        'cualquier propiedad o característica que permite distinguir un objeto de otro.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Auditoría',
+      significado:
+        'proceso de verificación y/o validación del cumplimiento de una actividad según lo planeado y las directrices estipuladas.',
+    },
+    {
+      termino: 'Auditoría externa',
+      significado:
+        'auditoría realizada por compañías independientes de la organización o aquellas que son realizadas por personas ajenas a la empresa, contratadas para ello.',
+    },
+    {
+      termino: 'Escala',
+      significado:
+        'rango de valores organizados con los cuales se evalúa un atributo.',
+    },
+    {
+      termino: 'Evidencia',
+      significado: 'información suficiente que respalda alguna acción.',
+    },
+    {
+      termino: 'Indicador',
+      significado:
+        'unidad que permiten medir el desempeño o desarrollo de alguna acción o de algún control.',
+    },
+    {
+      termino: 'Métrica',
+      significado:
+        'conjunto de criterios y condiciones necesarios para medir un control o una acción.',
+    },
+    {
+      termino: 'Modelado de amenazas',
+      significado:
+        'acción que establece la relación entre el atacante y el activo intentando definir el beneficio que puede alcanzar el atacante si logra penetrar el sistema y afectar la información de alguna manera.',
+    },
+    {
+      termino: 'Pruebas de efectividad',
+      significado:
+        'acciones que se enfocan en establecer una línea base del estado de seguridad de la organización, con el fin de facilitar la identificación de la brecha en la implementación del modelo de seguridad.',
+    },
+    {
+      termino: 'SGSI',
+      significado: ' Sistema de Gestión de la Seguridad de la Información.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Avansis (2020). Auditoría de ciberseguridad. Avansis.',
+      link:
+        'https://www.avansis.es/ciberseguridad/auditoria-de-ciberseguridad/',
+    },
+    {
+      referencia:
+        'Ciberseguridad y Riesgos Digitales (2020). Normas ISO en auditoría informática: Cuáles son las más importantes. Ealde.',
+      link: 'https://www.ealde.es/iso-auditoria-informatica/ ',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Ciberseguridad (2015). ¿Sabes cómo se mide la seguridad de la información en tu empresa? Incibe.',
+      link:
+        'https://www.incibe.es/protege-tu-empresa/blog/mide-seguridad-informacion',
+    },
+    {
+      referencia:
+        'ISO (2020). Evaluación del desempeño en ISO 27001. (ISO 27001). ISO',
+      link: 'https://normaiso27001.es/evaluacion-del-desempeno-en-iso-27001/ ',
+    },
+    {
+      referencia:
+        'ISO (2020). Fase 8 auditoría interna según ISO 27001. (ISO 27001). ISO',
+      link:
+        'https://normaiso27001.es/fase-8-auditoría-interna-segun-iso-27001/ ',
+    },
+    {
+      referencia:
+        'ISO (2018). Directrices para la auditoría de los sistemas de gestión. (ISO 19011). ISO.',
+      link:
+        'https://normaiso27001.es/fase-8-auditoría-interna-segun-iso-27001/ ',
+    },
+    {
+      referencia:
+        'Ministerio de Tecnologías de la Información y Comunicaciones. (2016). Guía de auditoría. Ministerio de Tecnologías de la Información y Comunicaciones.',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoria.pdf ',
+    },
+    {
+      referencia:
+        'Ministerio de Tecnologías de la Información y Comunicaciones. (2016). Guía metodológica de pruebas de efectividad. Ministerio de Tecnologías de la Información y Comunicaciones.',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G1_Metodologia_pruebas_efectividad.pdf',
+    },
+    {
+      referencia:
+        'Organización Internacional de Normalización (ISO, 2013). Tecnología de la información - Técnicas de seguridad - Sistemas de gestión de seguridad de la información - Requisitos.',
+      link: 'https://www.iso.org/standard/54534.html',
     },
   ],
   creditos: [
@@ -136,7 +288,7 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Líder del equipo',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
@@ -151,10 +303,26 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador instruccional',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+        },
+        {
+          nombre: 'Ronald Alexander Vacca Ascanio',
+          cargo: 'Experto temático',
+          centro:
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora metodológica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de estilo ',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
       ],
     },
@@ -162,13 +330,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Yerson Fabian Zarate Saavedra ',
           cargo: 'Diseñador web',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
