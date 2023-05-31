@@ -300,7 +300,7 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -311,23 +311,23 @@ export default {
           nombre: 'Fabián Leonardo Correa Díaz',
           cargo: 'Diseñador instruccional',
           centro:
-            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Ronald Alexander Vacca Ascanio',
           cargo: 'Experto temático',
           centro:
-            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Asesora metodológica',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
           cargo: 'Corrector de estilo ',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
@@ -338,13 +338,13 @@ export default {
           nombre: 'Yerson Fabian Zarate Saavedra ',
           cargo: 'Diseñador web',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Carlos Eduardo Garavito Parada ',
