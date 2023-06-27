@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="A-D-CF7" />
+              <option name="title_text" value="Actividad_did&amp;#225;ctica" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -74,6 +74,7 @@
             </options>
           </option>
           <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -102,6 +103,7 @@
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
       <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -126,6 +128,7 @@
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
       <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -150,6 +153,7 @@
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
       <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -174,6 +178,7 @@
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
       <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -198,6 +203,7 @@
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
       <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1147,6 +1153,7 @@
       <string id="shortcut">Atajo</string>
       <string id="shortcuthelp">Listar los atajos de teclado</string>
       <string id="keyboardshortcuts">Atajos de teclado</string>
+      <string id="background_audio_shortcut">Activar/Desactivar el audio de fondo</string>
       <string id="acctext_shortcut">Activar/Desactivar texto accesible</string>
       <string id="togglezoom">Alternar los modos de zoom</string>
       <string id="closedcaptions_shortcut">Activar/Desactivar accesibilidad del texto</string>
@@ -1178,6 +1185,7 @@
       <string id="finish">FINALIZAR</string>
       <string id="acc_volume">volumen</string>
       <string id="keyboardshortcuts_lower">Atajos de teclado</string>
+      <string id="background_audio">Audio de fondo</string>
       <string id="zoom_to_fit">Habilitar zoom del navegador</string>
       <string id="acc_enter_fullscreen">Ingresar en el modo de pantalla completa</string>
       <string id="acc_exit_fullscreen">Salir del modo de pantalla completa</string>
@@ -1285,6 +1293,23 @@
       <string id="shift_key">Mayúsculas</string>
       <string id="acc_closed_captions">Subtítulos cerrados. Presiona la barra de espacio para activar y desactivar los subtítulos.</string>
       <string id="acc_active">activo</string>
+      <string id="transcript_auto_scroll">Desplazamiento automático</string>
+      <string id="acc_modern_video_transcript">Abrir</string>
+      <string id="acc_window_resize">Ajustar tamaño de ventana</string>
+      <string id="acc_window_close">Cerrar</string>
+      <string id="acc_video_transcript_list">Transcripciones</string>
+      <string id="acc_window_move">Mover ventana</string>
+      <string id="acc_window_options">Opciones</string>
+      <string id="transcript_show_timestamp">Mostrar marcas de tiempo</string>
+      <string id="video_transcript_resume_autoscroll">Reanudar desplazamiento automático</string>
+      <string id="video_transcript_select_track">Seleccionar pista</string>
+      <string id="video_transcript_title">Transcripciones</string>
+      <string id="acc_playback_speed">velocidad de reproducción</string>
+      <string id="playback_speed_title">Velocidad de reproducción</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="streaming_video_local_playback_learn_more">Saber más</string>
+      <string id="streaming_video_local_playback_republish">Para ver este video, utiliza la funcionalidad de previsualización en Storyline 360, sube tu curso publicado a un servidor, publica el curso en Review 360 o cambia a calidad de video estática.</string>
+      <string id="streaming_video_local_playback_title">El video en streaming no está disponible para reproducción local.</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1309,7 +1334,7 @@
             <slidelink slideid="_player.6g8RcXIVtvA.5xwlqv81Hdx" displaytext="En la organización, el desarrollo de una política de seguridad implica:" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5VtmIeadpkS" displaytext="Las empresas utilizan las pruebas de vulnerabilidad para:" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6OuQxuhDntB" displaytext="La mayoría de las veces, un entorno de prueba de desarrollo de software consiste en:" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.60cTG6s4Rv5" displaytext="Una vez definidos los objetivos de la auditoría, el proceso de planificación y el alcance, ¿qué se debe identificar?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.60cTG6s4Rv5" displaytext="Una vez definidos los objetivos de la auditoría, el proceso de planificación y el alcance; ¿qué se debe identificar?" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>

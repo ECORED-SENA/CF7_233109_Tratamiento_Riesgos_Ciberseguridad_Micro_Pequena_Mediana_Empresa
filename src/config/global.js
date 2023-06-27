@@ -33,49 +33,42 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'La auditoría cibernética',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Técnicas de auditoría',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Tipos de auditoría',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Definiciones y elementos fundamentales de la auditoría',
             hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Consideraciones importantes para una auditoría',
             hash: 't_1_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'Principios de la auditoría',
             hash: 't_1_5',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.6',
             titulo: 'Fases de la auditoría',
             hash: 't_1_6',
@@ -85,37 +78,31 @@ export default {
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Pruebas de vulnerabilidad cibernética',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Finalidad de las pruebas',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Pruebas y análisis',
             hash: 't_2_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.3',
             titulo: 'Tipos de pruebas de efectividad',
             hash: 't_2_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.4',
             titulo: 'Procedimiento de ejecución de pruebas de efectividad',
             hash: 't_2_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.5',
             titulo: 'Alcance de las pruebas',
             hash: 't_2_5',
@@ -172,7 +159,7 @@ export default {
     {
       tema: 'Procedimiento de ejecución de pruebas de efectividad.',
       referencia:
-        'Ministerio de Tecnologías de la Información y Comunicaciones. (2016). Guía metodológica de pruebas de efectividad. ',
+        'Ministerio de Tecnologías de la Información y Comunicaciones. (2016). <em>Guía metodológica de pruebas de efectividad.</em> ',
       tipo: 'Otro: Guía técnica ',
       link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_G1_Metodologia_pruebas_efectividad.pdf',
@@ -180,7 +167,7 @@ export default {
     {
       tema: 'Principios de la auditoría',
       referencia:
-        'Organización Internacional de Normalización (2013). Seguridad de la información, ciberseguridad y protección de la privacidad. (ISO 27001). ISO. ',
+        'Organización Internacional de Normalización (2013). <em>Seguridad de la información, ciberseguridad y protección de la privacidad. (ISO 27001).</em> ISO. ',
       tipo: 'Norma técnica',
       link: 'https://www.iso.org/standard/54534.html',
     },
@@ -293,12 +280,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -309,24 +296,24 @@ export default {
       autores: [
         {
           nombre: 'Fabián Leonardo Correa Díaz',
-          cargo: 'Diseñador instruccional',
+          cargo: 'Diseñador Instruccional',
           centro:
             'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Ronald Alexander Vacca Ascanio',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Asesora metodológica',
+          cargo: 'Asesora Metodológica',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de estilo ',
+          cargo: 'Corrector de Estilo ',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
@@ -336,7 +323,7 @@ export default {
       autores: [
         {
           nombre: 'Yerson Fabian Zarate Saavedra ',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -348,7 +335,7 @@ export default {
         },
         {
           nombre: 'Carlos Eduardo Garavito Parada ',
-          cargo: 'Producción audiovisual',
+          cargo: 'Animador y Productor Multimedia',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -377,7 +364,7 @@ export default {
         },
         {
           nombre: 'Daniel Ricardo Mutis',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

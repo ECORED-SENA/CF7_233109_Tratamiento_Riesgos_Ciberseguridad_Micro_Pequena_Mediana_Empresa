@@ -32,7 +32,7 @@
 
 .img-t
   width: auto
-  height: auto 
+  height: auto
 
 .horizontal-scroll
   align-items: stretch !important
@@ -54,7 +54,7 @@
     margin: 0 0rem
     top: -1rem
     left: -4%
-    width: 108% 
+    width: 108%
     height: 100%
     background: linear-gradient(180deg, rgba(238,235,252,1) 2%, rgba(255,255,255,1) 100%)
     background-size: cover
@@ -73,7 +73,6 @@
   @media (max-width: $bp-max-md)
     background-image: none
     background-color: #D5CEF8
-    margin-left: 0
     margin-top: 5%
     height: 100%
     width: 100%
@@ -108,7 +107,7 @@
     margin-top: 5%
     height: 90%
     width: 100%
-  
+
 .bg6
   background-image: url("../assets/curso/tema1/img17.png")
   background-size: cover
@@ -126,7 +125,7 @@
 .bg7
   background-color: #40327B
   border-radius: 10px
-  
+
 .bg8
   background-image: url("../assets/curso/tema2/img4.png")
   background-size: cover
@@ -208,7 +207,7 @@
     width: 100%
 .bg13
   background-image: url("../assets/curso/tema2/img17.svg")
-  background-repeat: no-repeat 
+  background-repeat: no-repeat
   height: 450px
   border-radius: 15px
   @media (max-width: $bp-max-md)
@@ -233,15 +232,14 @@
 .bg_color2
    background-image: url("../assets/curso/tema2/img10.svg")
    background-repeat: no-repeat
-   background-size: contain
+   background-size: cover
    border-radius: 10px
-   height: 560px
 .bg_color2:hover
    background-image: url("../assets/curso/tema2/img11.svg")
    background-repeat: no-repeat
-   background-size: contain
+   background-size: cover
    border-radius: 10px
-   height: 560px
+
 
 .dual-txt-deco
   position: relative
@@ -253,7 +251,7 @@
     width: 25%
     height: 62%
     background-color: #D9ECEF
-    z-index: 0  
+    z-index: 0
 
 .img_position
   position: relative
@@ -264,11 +262,19 @@
   width: 116%
   max-width: 114%
   margin-left: -25px
+  @media screen and (max-width: $bp-max-xl)
+    margin-left: -20px
+  @media screen and (max-width: $bp-max-lg)
+    margin-left: -18px
+    max-width: 120%
   @media (max-width: $bp-max-md)
-    max-width: 110%
-    max-width: 115%
-    margin-left: -25px
-.slyder-f__btn 
+    max-width: 109%
+    margin-left: -24px
+  @media (max-width: $bp-max-sm)
+    max-width: 112%
+    margin-left: -24px
+
+.slyder-f__btn
   i
     font-size: 1.5rem
     background-color: #AFAFAF
@@ -282,7 +288,7 @@
   top: 32px
   width: 75px
 
-.tarjeta-avatar > img 
+.tarjeta-avatar > img
   position: absolute
   left: 50%
   top: 32px
@@ -290,20 +296,20 @@
 
 .tarjeta.color-cuarto1
   background-color:#D5CEF8
-  border-radius: 10px 
+  border-radius: 10px
 
 .tarjeta.color-cuarto
   background-color:#B5E4EB
-  border-radius: 10px  
-  
-.linea-tiempo-d .tarjeta 
+  border-radius: 10px
+
+.linea-tiempo-d .tarjeta
   background-color: #f3f3f3
-  
+
 .linea-tiempo-d__item--selected .tarjeta--gris
   background-image: url("../assets/curso/tema1/img21.png")
   background-size: 100% 100%
- 
-.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background-color: #45BBCC
   color: white
 
@@ -316,3 +322,46 @@ ul.lista-ul--color
       position: relative
       margin-right: 7px
       font-size: 1.4rem
+
+
+.fa-ul2
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ul--color
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.btn-h3
+  position: relative
+  display: inline-block
+  background: #40327B
+  border-start-end-radius: 50px 50px
+  border-end-end-radius: 50px 50px
+  padding: 8px 45px 8px 50px
+  span
+    color: #fff
+  &::before
+    content: ""
+    position: absolute
+    background: url(../assets/curso/bg/bg-btn-h3.svg)
+    width: 40px
+    height: 38px
+    bottom: 0px
+    left: 0px
+
+
+.banner-principal
+  .container.tarjeta
+    @media screen and (max-width: $bp-max-xs)
+      background-image: none !important
+      background: #583AE2
+
