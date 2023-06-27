@@ -116,7 +116,8 @@
           img.imgtar(src='@/assets/curso/tema2/img13.png', , alt='')
         h4.mb-3 Pruebas con conocimiento completo del entorno
         p.mb-0 Son pruebas en donde el hacker cuenta con toda la información disponible y relacionada con el sistema objetivo del ataque. Por lo general, son para asuntos de auditoría.
-        Separador
+
+    Separador
     #t_2_4
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.4 Procedimiento de ejecución de pruebas de efectividad
