@@ -113,7 +113,7 @@
           .tarjeta.color-cuarto.p-3(x="77.2%" y="70.6%" numero="+")
             p <b>Enfoque en su organización</b>
             p.mb-0 En este componente formativo, se enfocará la mirada hacia las <b>auditorías de primera parte o auditorías internas</b>, ya que la demás auditorías son realizadas por terceros. Con este énfasis, usted se fortalecerá en la identificación de aspectos clave del proceso de evaluación de estrategias de seguridad para su propia organización.
-          .tarjeta.color-cuarto.p-3(x="22.5%" y="70.6%" numero="+")
+          .tarjeta.color-cuarto.p-3(x="23.5%" y="70.6%" numero="+")
             p <b>Auditoría de primera parte</b>
             p.mb-0 Estas son realizadas por la misma organización o también llamadas #[strong Auditorías Internas]. Buscan verificar que se estén aplicando y cumpliendo los requisitos establecidos en la estrategia de seguridad.
           .tarjeta.color-cuarto.p-3(x="27%" y="40.8%" numero="+")
