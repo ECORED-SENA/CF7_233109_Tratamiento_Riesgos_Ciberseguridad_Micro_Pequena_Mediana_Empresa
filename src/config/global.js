@@ -225,8 +225,6 @@ export default {
   referencias: [
     {
       referencia: 'Avansis (2020). Auditoría de ciberseguridad. Avansis.',
-      link:
-        'https://www.avansis.es/ciberseguridad/auditoria-de-ciberseguridad/',
     },
     {
       referencia:
@@ -235,9 +233,9 @@ export default {
     },
     {
       referencia:
-        'Instituto Nacional de Ciberseguridad (2015). ¿Sabes cómo se mide la seguridad de la información en tu empresa? Incibe.',
+        'Instituto Nacional de Ciberseguridad. (2015). Protección de la información. Incibe.',
       link:
-        'https://www.incibe.es/protege-tu-empresa/blog/mide-seguridad-informacion',
+        'https://www.incibe.es/sites/default/files/contenidos/dosieres/metad_proteccion-de-la-informacion.pdf',
     },
     {
       referencia:
@@ -248,13 +246,13 @@ export default {
       referencia:
         'ISO (2020). Fase 8 auditoría interna según ISO 27001. (ISO 27001). ISO',
       link:
-        'https://normaiso27001.es/fase-8-auditoría-interna-segun-iso-27001/ ',
+        'https://normaiso27001.es/fase-8-auditoria-interna-segun-iso-27001/',
     },
     {
       referencia:
         'ISO (2018). Directrices para la auditoría de los sistemas de gestión. (ISO 19011). ISO.',
       link:
-        'https://normaiso27001.es/fase-8-auditoría-interna-segun-iso-27001/ ',
+        'https://cmdcertification.com/wp-content/uploads/2020/11/ISO-19011-2018.pdf',
     },
     {
       referencia:
